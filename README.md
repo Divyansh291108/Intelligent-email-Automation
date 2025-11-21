@@ -9,7 +9,7 @@ Tech Stack:-
 Python 3.10+ — Core scripting language
 IMAPClient / IMAP/SMTP — Real-time email monitoring and sending
 Pandas — Data extraction, parsing, and storage
-OpenAI API (optional) — Summarization or AI-generated email replies
+OpenAI API  — Summarization or AI-generated email replies
 
 Workflow:-
 
