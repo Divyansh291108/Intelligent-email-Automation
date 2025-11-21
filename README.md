@@ -1,27 +1,20 @@
 # Intelligent-email-Automation
-Tech Stack: Python + IMAP/SMTP + Pandas + OpenAI API (optional for smart replies)
 
-Problem Solved:
-Automates reading incoming emails, classifying them, and taking appropriate action without manual intervention.
+Problem:-
 
-Workflow:
+Managing emails manually is time-consuming and error-prone, especially when handling repetitive tasks like processing invoices, leave requests, or support tickets. This project automates email reading, classification, and response generation to save time and reduce errors.
 
-Real-time email monitoring using Python IMAPClient
+Tech Stack:-
 
-Extract subject, sender, body, and attachments using Python + Pandas
+Python 3.10+ — Core scripting language
+IMAPClient / IMAP/SMTP — Real-time email monitoring and sending
+Pandas — Data extraction, parsing, and storage
+OpenAI API (optional) — Summarization or AI-generated email replies
 
-Classify emails based on rules (e.g., invoice, leave request, support ticket)
+Workflow:-
 
-Store extracted data in Excel or database
-
-(Optional) Use OpenAI API to summarize or generate auto-replies
-
-Highlights:
-
-Real-time email processing with Python
-
-Rule-based classification and automated workflow triggers
-
-Optional AI-powered summarization or smart replies
-
-Fully Python-based solution demonstrating automation logic and intelligent text handling
+Monitor incoming emails in real-time using Python IMAPClient.
+Extract email subject, sender, body, and attachments.
+Classify emails based on predefined rules (e.g., invoice, leave request, support).
+Store extracted data in Excel or database for tracking.
+Use AI(OpenAI, prpelexity) to generate summaries or smart replies.
